@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -25,9 +25,10 @@ class Array2Test {
 
     @Test
     void calculatearr() {
-        double expected = 5;
+        int expected = 100;
         double[][] array = array1.readTwoDimensionalArray("lana51.txt");
-        double result = array2.calculatearr(array);
+        int result = array.length;
         assertEquals(expected, result);
+        assertEquals(245.0, array[99][99], 1e-6);
     }
 }

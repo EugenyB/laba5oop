@@ -1,7 +1,4 @@
-package Main;
-
-import java.io.*;
-import java.util.Scanner;
+package main;
 
 public class Array2 implements ArrayProcessor {
     public Array2() {
