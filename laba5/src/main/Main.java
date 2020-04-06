@@ -9,6 +9,7 @@ public class Main {
     private void run() {
         double[][] arr = new Array1().readTwoDimensionalArray("lana51");
 
+
     }
 }
 
